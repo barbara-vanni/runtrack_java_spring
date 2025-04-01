@@ -1,0 +1,30 @@
+
+
+spring:
+  name:
+    application: "demodeux"
+  profiles:
+    active: dev
+  devtools:
+    restart:
+      enabled: true
+  thymeleaf:
+    enabled: true
+    cache: false
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+greeting:
+  message: "Bonjour depuis l'environnement de développement !"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+greeting:
+  message: "Bonjour depuis l'environnement de production !"
