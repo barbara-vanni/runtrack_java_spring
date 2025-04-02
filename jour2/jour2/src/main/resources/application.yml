@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: "jour2"
+  profiles:
+    active: dev
+  devtools:
+    restart:
+      enabled: true
+  thymeleaf:
+      enabled: true
+      cache: false
+
+---
+spring:
+  config:
+    activate:
+        on-profile: dev
+greeting:
+
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+greeting:

@@ -1,0 +1,23 @@
+/* Center the list container */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+
+}

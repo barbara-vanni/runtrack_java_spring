@@ -1,8 +1,8 @@
 
 
 spring:
-  name:
-    application: "demodeux"
+  application:
+    name: "jour1"
   profiles:
     active: dev
   devtools:
