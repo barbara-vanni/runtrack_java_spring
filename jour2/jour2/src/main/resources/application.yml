@@ -15,11 +15,9 @@ spring:
   config:
     activate:
         on-profile: dev
-greeting:
 
 ---
 spring:
     config:
         activate:
             on-profile: prod
-greeting:

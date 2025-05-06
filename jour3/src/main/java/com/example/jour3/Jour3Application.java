@@ -10,4 +10,8 @@ public class Jour3Application {
 		SpringApplication.run(Jour3Application.class, args);
 	}
 
+	// @Bean
+	// createPerson() {
+	Person person = new Person("walid",32);
+
 }
